@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -11,7 +11,7 @@ import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { BookOpen, Crown, DollarSign, HelpCircle, Rocket, Sparkles, Star, TrendingUp } from "lucide-react";
+import { BookOpen, Crown, DollarSign, HelpCircle, Rocket, Sparkles, Star, TrendingUp, Twitter, Instagram, Youtube } from "lucide-react";
 
 export default function Home() {
   return (
@@ -330,17 +330,17 @@ export default function Home() {
           ]}
           socialLinks={[
             {
-              icon: "Twitter",
+              icon: Twitter,
               href: "https://twitter.com/onlyfans",
               ariaLabel: "Follow us on Twitter"
             },
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/onlyfans",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Youtube",
+              icon: Youtube,
               href: "https://youtube.com/onlyfans",
               ariaLabel: "Subscribe to our YouTube channel"
             }
